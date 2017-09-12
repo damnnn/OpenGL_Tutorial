@@ -51,6 +51,7 @@ namespace graphics {
 
 		glm::mat4 GetViewMatrix();
 		glm::vec3 GetPosition();
+		glm::vec3 GetFront();
 		float GetZoom();
 
 		void ProcessKeyboard(Camera_Movement direction, float deltaTime);

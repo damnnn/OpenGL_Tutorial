@@ -135,6 +135,11 @@ namespace graphics {
 		return m_Camera.GetPosition();
 	}
 
+	glm::vec3 Window::GetCamFront()
+	{
+		return m_Camera.GetFront();
+	}
+
 	void Window::setTime(float currentFrame)
 	{
 		m_DeltaTime = currentFrame - m_LastTime;

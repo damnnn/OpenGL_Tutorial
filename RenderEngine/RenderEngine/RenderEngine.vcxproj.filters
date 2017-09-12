@@ -109,13 +109,20 @@
     <Image Include="resources\textures\awesomeface.png">
       <Filter>Resource Files</Filter>
     </Image>
+    <Image Include="resources\textures\container2_specular.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\textures\container2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
-    <None Include="resources\shaders\shader.vs" />
-    <None Include="resources\shaders\shader.fs" />
     <None Include="resources\shaders\lamp.fs" />
     <None Include="resources\shaders\lamp.vs" />
     <None Include="resources\shaders\lighting.vs" />
     <None Include="resources\shaders\lighting.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="dependencies\lib\glfw3.lib" />
   </ItemGroup>
 </Project>

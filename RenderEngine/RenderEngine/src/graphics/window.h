@@ -52,6 +52,8 @@ namespace graphics {
 		glm::mat4 GetCamViewMatrix();
 		float GetCamZoom();
 		glm::vec3 GetCamPos();
+		glm::vec3 GetCamFront();
+
 
 		inline int getWidth() const { return m_Width; }
 		inline int getHeight() const { return m_Height; }

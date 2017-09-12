@@ -161,6 +161,8 @@
   <ItemGroup>
     <Image Include="resources\textures\awesomeface.png" />
     <Image Include="resources\textures\container.jpg" />
+    <Image Include="resources\textures\container2.png" />
+    <Image Include="resources\textures\container2_specular.png" />
     <Image Include="resources\textures\wall.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -168,8 +170,9 @@
     <None Include="resources\shaders\lamp.vs" />
     <None Include="resources\shaders\lighting.fs" />
     <None Include="resources\shaders\lighting.vs" />
-    <None Include="resources\shaders\shader.fs" />
-    <None Include="resources\shaders\shader.vs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="dependencies\lib\glfw3.lib" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -39,6 +39,12 @@ namespace graphics {
 		return Position;
 	}
 
+	glm::vec3 Camera::GetFront()
+	{
+		return Front;
+	}
+
+
 		// Processes input received from any keyboard-like input system. Accepts input parameter in the form of camera defined ENUM (to abstract it from windowing systems)
 	void Camera::ProcessKeyboard(Camera_Movement direction, float deltaTime)
 		{
