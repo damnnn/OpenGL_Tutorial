@@ -20,6 +20,7 @@ namespace graphics {
 		~VertexArray();
 
 		void addVertexBuffer(VertexBuffer * vertexBuffer, unsigned int index);
+		void SetAttribOffset();
 		void bind() const;
 		void unbind() const;
 
